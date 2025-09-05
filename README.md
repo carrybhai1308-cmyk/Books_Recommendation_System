@@ -1,44 +1,28 @@
-# 📚 Book Recommendation System
+# Books Recommendation System
 
-## 🔹 Overview
-This project is a *Book Recommendation System* where I explored different approaches for recommending books to users.  
-The system is built using *Python (scikit-learn)* and applies both *popularity-based* and *item-to-item collaborative filtering* methods.
+## Overview
+This project is a Book Recommendation System that suggests books to users using popularity-based and item-to-item collaborative filtering methods.  
+Built with Python and scikit-learn, it provides personalized recommendations based on user ratings and trends.
 
----
+## Techniques Implemented
+1. Popularity-Based Recommendation
+   - Suggests the most popular books based on ratings or frequency.
 
-## 🔹 Techniques Implemented
-1. *Popularity-Based Recommendation*
-   - Recommends books based on the most popular ones (highest ratings or most frequently rated).
-   
-2. *Item-to-Item Collaborative Filtering (Cosine Similarity)*
-   - Used *scikit-learn cosine similarity* to find relationships between books.
+2. Item-to-Item Collaborative Filtering (Cosine Similarity)
+   - Finds relationships between books using cosine similarity.
    - Recommends similar books based on user-item interactions.
 
----
+## What I Learned
+- How recommendation systems work in practice.
+- Differences between popularity-based and collaborative filtering.
+- Using cosine similarity to find related items.
+- Building recommendation pipelines with scikit-learn.
 
-## 🔹 What I Learned
-- How *Recommendation Systems* are built in practice.  
-- The difference between *popularity-based* and *similarity-based (collaborative)* approaches.  
-- How *cosine similarity* works in finding related items.  
-- Basics of using *scikit-learn* for building recommendation pipelines.  
+## Dataset
+- Book details (title, author, publisher, year)
+- User ratings
 
----
-
-## 🔹 Challenges Faced
-- Understanding how collaborative filtering works behind the scenes.  
-- Figuring out how to clean and prepare data for recommendations.  
-- Implementing cosine similarity correctly and interpreting the results.  
-
----
-
-## 🔹 Dataset
-- Contains book information (title, author, publisher, year, etc.)  
-- Includes user ratings data.  
-
----
-
-## 🔹 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/<username>/<repo>.git
-   cd Book_Recommendation_System
+## How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/carrybhai1308-cmyk/Books_Recommendation_System.git
